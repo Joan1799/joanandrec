@@ -9,7 +9,7 @@
   <div class = "container">
     <div class="jumbotron">
       <h1 class="display-4">Customer Catalog</h1>
-      <p class="lead">Customer Catalog Sample Application</p>
+      <p class="lead">Prueba pagina con base de datos</p>
       <hr class="my-4">
       <p>PHP sample application connected to a MySQL database to list a customer catalog</p>
     </div>
@@ -28,7 +28,7 @@
       <tbody>
         <?php
 
-        $conexion = mysqli_connect("localhost", "joan", "1234", "MyBase");
+        $conexion = mysqli_connect("localhost", "joan", "1234", "SG");
 
         $cadenaSQL = "select * from s_customer";
 	$sentencia = mysqli_prepare($cadenaSQL);
